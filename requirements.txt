@@ -1,0 +1,15 @@
+# ── Core Data Science ──────────────────────────
+pandas
+numpy
+matplotlib
+seaborn
+
+# ── Machine Learning ───────────────────────────
+scikit-learn
+joblib
+
+# ── Explainability ─────────────────────────────
+shap
+
+# ── Web App ────────────────────────────────────
+streamlit

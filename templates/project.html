@@ -4,25 +4,29 @@
     <title>Crop Prediction</title>
     <style>
         body {
-            font-family: Arial;
-            background: #5e3281;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
+    font-family: Arial;
+    background: url("{{ url_for('static', filename='images.jpg') }}") no-repeat center center fixed;
+    background-size: cover; /* ✅ Make image cover the whole screen */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 
         .container {
-            background: rgb(129, 80, 119);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            width: 100%;
-            max-width: 500px;
-            text-align: center;
-        }
+    background: rgba(129, 80, 119, 0.6); /* ✅ 60% opacity */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+
 
         h1 {
             color: #4CAF50;
